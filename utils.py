@@ -7,11 +7,6 @@ from langchain.chat_models import ChatOpenAI
 from langchain.callbacks import get_openai_callback
 from pypdf import PdfReader
 
-import pytesseract
-import cv2
-from PIL import Image
-import io
-
 def process_text(text):
     text_splitter = CharacterTextSplitter(
         separator = "\n",
