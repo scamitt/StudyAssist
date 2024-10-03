@@ -3,10 +3,6 @@ import os
 from utils import *
 from dotenv import load_dotenv
 
-load_dotenv()  # Load environment variables from the .env file
-api_key = os.getenv('API_KEY')
-
-
 def main():
 
     st.set_page_config(page_title="Study Material Generator")
