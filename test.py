@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 
 def main():
 
-    st.set_page_config(page_title="Study Material Generator")
-    st.title("PDF Summarizing App 📄")
-    st.write("Generate study material in just a few seconds!")
+    st.set_page_config(page_title="Study Assist")
+    st.title("Study Assist App 📄")
+    st.write("Get topics covered and practice questions based on the uploaded pdf in just a few seconds!")
 
     pdf = st.file_uploader("Upload your document",type = 'pdf')
 
