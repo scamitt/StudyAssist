@@ -3,4 +3,4 @@ langchain
 langchain_community
 pypdf
 sentence-transformers
-transformers
+faiss-cpu
